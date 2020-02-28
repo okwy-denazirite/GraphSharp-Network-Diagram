@@ -1,0 +1,33 @@
+﻿using System.Collections.Generic;
+using QuickGraph;
+using System.Windows;
+
+namespace GraphSharp.Algorithms.Layout.Compound
+{
+    public class CompoundLayoutIterationEventArgs<TVertex, TEdge>
+        : LayoutIterationEventArgs<TVertex, TEdge>, ICompoundLayoutIterationEventArgs<TVertex>
+        where TVertex : class
+        where TEdge : IEdge<TVertex>
+    {
+        public CompoundLayoutIterationEventArgs(
+            int iteration, 
+            double statusInPercent, 
+            string message,
+            IDictionary<TVertex, Point> vertexPositions,
+            IDictionary<TVertex, double> vertexAngles,
+            IDictionary<TVertex, Size> innerCanvasSizes)
+            : base(iteration, statusInPercent, message, vertexPositions, vertexAngles)
+        {
+            InnerCanvasSizes = innerCanvasSizes;
+        }
+
+        #region ICompoundLayoutIterationEventArgs<TVertex> Members
+
+        public IDictionary<TVertex, Size> InnerCanvasSizes
+        {
+            get; private set;
+        }
+
+        #endregion
+    }
+}

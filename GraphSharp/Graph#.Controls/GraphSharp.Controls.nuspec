@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>GraphSharp.SIL</id>
+    <version>$version$</version>
+    <title>GraphSharp (SIL)</title>
+    <authors>palesz, SIL</authors>
+    <owners>SIL</owners>
+    <licenseUrl>http://graphsharp.codeplex.com/license</licenseUrl>
+    <projectUrl>https://github.com/sillsdev/graphsharp</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Graph# (SIL) is a graph layout framework. It contains some layout algorithms and a GraphLayout control for WPF applications. This is a fork of the Graph# library.</description>
+    <copyright>Copyright 2015</copyright>
+    <tags>WPF QuickGraph Graph# edge routing graph layout</tags>
+  </metadata>
+  <files>
+    <file src="bin\$configuration$\GraphSharp*.pdb" target="lib\net40-Client" />
+  </files>
+</package>

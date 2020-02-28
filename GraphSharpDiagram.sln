@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphSharpDiagram", "GraphSharpDiagram\GraphSharpDiagram.csproj", "{6DBEDE0F-1635-4A6A-ADCB-760559E037D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphSharp", "GraphSharp\Graph#\GraphSharp.csproj", "{9C59C516-FCA0-4FCF-AE11-E20F0F1B1949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphSharp.Controls", "GraphSharp\Graph#.Controls\GraphSharp.Controls.csproj", "{90D874F2-486E-477E-93A9-FFA6FC92A2F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DebugWithoutPlugins|Any CPU = DebugWithoutPlugins|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DBEDE0F-1635-4A6A-ADCB-760559E037D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DBEDE0F-1635-4A6A-ADCB-760559E037D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DBEDE0F-1635-4A6A-ADCB-760559E037D1}.DebugWithoutPlugins|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DBEDE0F-1635-4A6A-ADCB-760559E037D1}.DebugWithoutPlugins|Any CPU.Build.0 = Debug|Any CPU
+		{6DBEDE0F-1635-4A6A-ADCB-760559E037D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DBEDE0F-1635-4A6A-ADCB-760559E037D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C59C516-FCA0-4FCF-AE11-E20F0F1B1949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C59C516-FCA0-4FCF-AE11-E20F0F1B1949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C59C516-FCA0-4FCF-AE11-E20F0F1B1949}.DebugWithoutPlugins|Any CPU.ActiveCfg = DebugWithoutPlugins|Any CPU
+		{9C59C516-FCA0-4FCF-AE11-E20F0F1B1949}.DebugWithoutPlugins|Any CPU.Build.0 = DebugWithoutPlugins|Any CPU
+		{9C59C516-FCA0-4FCF-AE11-E20F0F1B1949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C59C516-FCA0-4FCF-AE11-E20F0F1B1949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90D874F2-486E-477E-93A9-FFA6FC92A2F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90D874F2-486E-477E-93A9-FFA6FC92A2F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90D874F2-486E-477E-93A9-FFA6FC92A2F4}.DebugWithoutPlugins|Any CPU.ActiveCfg = DebugWithoutPlugins|Any CPU
+		{90D874F2-486E-477E-93A9-FFA6FC92A2F4}.DebugWithoutPlugins|Any CPU.Build.0 = DebugWithoutPlugins|Any CPU
+		{90D874F2-486E-477E-93A9-FFA6FC92A2F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90D874F2-486E-477E-93A9-FFA6FC92A2F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54C18A83-3A29-4014-A0EC-2BD6B91C8D71}
+	EndGlobalSection
+EndGlobal
